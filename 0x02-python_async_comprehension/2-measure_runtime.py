@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 '''Task 2's module.
 '''
 import asyncio
@@ -14,5 +14,4 @@ async def measure_runtime() -> float:
     total execution time.
     '''
     start_time = time.time()
-    await asyncio.gather(*(async_comprehension() for _ in range(4)))
-    return time.time() - 
+    await asuv
